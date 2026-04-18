@@ -17,19 +17,24 @@
 Ответьте на следующие вопросы:
 
 - Какие сетевые службы в ней разрешены?
+
+![Рисунок 1.](https://github.com/ddponomarev/12_01/blob/main/img/s1.png)
+
 - Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
+
+![Рисунок 2.](https://github.com/ddponomarev/12_01/blob/main/img/s2.png)
 
 *Приведите ответ в свободной форме.*
 
 ```
+Список сетевых служб предоставлен в скриншоте выше. (пример ftp, ssh, telnet, smtp, mysql и т.п.)
 
+Список уязвимостей:
+-vsftpd 2.3.4 - Backdoor Command Execution (Metasploit) - https://www.exploit-db.com/
+-DistCC Daemon - Command Execution (Metasploit) - https://www.exploit-db.com/exploits/9915
+-Apache Tomcat - AJP 'Ghostcat' File Read/Inclusion (Metasploit) - https://www.exploit-db.com/exploits/49039
 
 ```
-![Рисунок 1.](https://github.com/ddponomarev/11_09/blob/main/img/z1.png)
-
-![Рисунок 2.](https://github.com/ddponomarev/11_09/blob/main/img/z2.png)
-
-
 
 ### Задание 2
 
